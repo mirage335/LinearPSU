@@ -1,0 +1,52 @@
+Copyright (C) 2012 mirage335
+See the end of the file for license conditions.
+See license.txt for Mirage335PowerSupply license conditions.
+
+mirage335-site.dyndns.org
+
+__Usage__
+Intended as a high-end laboratory bench supply.
+
+Absolute maximum input voltage is 61.7VPeak. Recommend 48V from linear low-leakage medical power supply. Of course, cheaper transformers will generally be used in practice.
+
+Outputs are ultra-low-noise, ripple estimated below 0.3uV. Voltages include 3.3V, 5V, adjustable 3.24-50V, and midpoint.
+
+Minimum ripple and common-mode noise may be achieved on battery power.
+
+__Design__
+Multi-stage linear regulator. Many laboratory bench supplies are switching regulators, with questionable noise output.
+
+High-power components are referenced to the bottom of the PCB, to permit arbitrary heatsinks.
+
+Wide traces mostly on the top side are intentionally used to permit PCB isolation milling.
+
+USA companies provide all parts in these schematics.
+
+_Extras_
+http://www.adafruit.com/product/574 (Meter)
+http://www.adafruit.com/product/705 (Meter)
+
+3 * https://www.sparkfun.com/products/9576 (Heat Sinks)
+
+http://www.ebay.com/itm/3590S-10K-ohm-10-Turn-Rotary-Wirewound-Precision-Potentiometer-scale-knob-/261243097590 (Front Panel Potentiometer)
+
+LTC4079 (Battery Charger)
+
+__Safety__
+Output voltage is fairly high, and input isolation is not part of the regulator. Test equipment must be used carefully.
+
+__Copyright__
+This file is part of Mirage335PowerSupply.
+
+Mirage335PowerSupply is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Mirage335PowerSupply is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Mirage335PowerSupply.  If not, see <http://www.gnu.org/licenses/>.
