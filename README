@@ -18,7 +18,7 @@ Multi-stage linear regulator. Many laboratory bench supplies are switching regul
 
 High-power components are referenced to the bottom of the PCB, to permit arbitrary heatsinks.
 
-Wide traces mostly on the top side are intentionally used to permit PCB isolation milling. Ironically, the pcb2gcode program stalled generating the relevant assets for this PCB.
+Wide traces mostly on the top side are intentionally used to permit PCB isolation milling. However, to generate the required files, the minimalist outline should be removed.
 
 USA companies provide all parts in these schematics.
 
