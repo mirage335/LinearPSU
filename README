@@ -13,6 +13,8 @@ Outputs are ultra-low-noise, ripple estimated below 0.3uV. Voltages include 3.3V
 
 Minimum ripple and common-mode noise may be achieved on battery power.
 
+Minimum load is 12mA for both adjustable rails. A 1k resistor may be needed to prevent uncontrolled voltage rise, especially for the midpoint reference. If not otherwise guaranteed, such a load may be soldered across the optional F2, F3, and F4 polyfuse inputs.
+
 __Design__
 Multi-stage linear regulator. Many laboratory bench supplies are switching regulators, with questionable noise output.
 
